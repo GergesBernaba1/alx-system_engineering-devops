@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "$1" | rev
+while read line
+do
+    echo "$line" | rev
+done
