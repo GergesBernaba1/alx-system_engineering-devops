@@ -1,2 +1,7 @@
 #!/bin/bash
-BETTY="Holberton"
+function myfunc {
+  local BEST="School"
+  echo "The value of BEST is $BEST"
+}
+
+myfunc
